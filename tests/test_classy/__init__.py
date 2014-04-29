@@ -1,7 +1,7 @@
 from flask import Flask, url_for
 from flask_bouncer import Bouncer, bounce
-from test_flask_bouncer.models import Article, User
-from test_flask_bouncer.helpers import user_set
+from tests.models import Article, User
+from tests.helpers import user_set
 from bouncer.constants import *
 from .view_classes import ArticleView, OverwrittenView
 

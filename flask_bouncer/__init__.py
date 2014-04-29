@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+__author__ = 'Jonathan Tushman'
+__email__ = 'jonathan@zefr.com'
+__version__ = '0.1.13'
+__license__ = 'MIT'
+
 from functools import wraps
 
 from flask import request, g, current_app, _app_ctx_stack as stack

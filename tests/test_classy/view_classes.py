@@ -1,5 +1,5 @@
 from flask_classy import FlaskView, route
-from test_flask_bouncer.models import Article
+from tests.models import Article
 from flask_bouncer import requires
 from bouncer.constants import *
 
